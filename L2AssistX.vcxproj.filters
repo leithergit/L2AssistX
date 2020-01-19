@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="INC">
+      <UniqueIdentifier>{f999fed3-2f9d-4947-81f2-0b0013cde6d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="L2AssistX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L2AssistXDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoleProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AutoLock.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CriticalSectionProxy.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CtrlsForListCtrl.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Markup.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MMEvent.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OnScopeExit.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Runlog.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeUtility.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TRAYICON.H">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utility.h">
+      <Filter>INC</Filter>
+    </ClInclude>
+    <ClInclude Include="CDetector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="L2AssistX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="L2AssistXDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoleProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\CtrlsForListCtrl.cpp">
+      <Filter>INC</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Markup.cpp">
+      <Filter>INC</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Runlog.cpp">
+      <Filter>INC</Filter>
+    </ClCompile>
+    <ClCompile Include="include\TimeUtility.cpp">
+      <Filter>INC</Filter>
+    </ClCompile>
+    <ClCompile Include="include\TRAYICON.CPP">
+      <Filter>INC</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Utility.cpp">
+      <Filter>INC</Filter>
+    </ClCompile>
+    <ClCompile Include="CDetector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="L2AssistX.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\L2AssistX.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Scan.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\L2AssistX.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\WndIcon_h.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\From.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\eye.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\drag.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\user-delete.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\user-group-delete.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\From_h.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\user-new-3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Fight32.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Fight48.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Fight64.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Stop32.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Stop48.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Stop64.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
